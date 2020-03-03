@@ -1,0 +1,279 @@
+body{
+    color: white;
+    background-image: url("../img/casino.png");
+    background-repeat: repeat-y;
+    background-size: cover;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+
+header{
+    background-image: url("../img/wood2.jpg");
+    background-color: #cccccc;
+    height: 70px;
+    box-shadow: 2px 5px 6px rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#logo{
+    margin-left: 10px; 
+}
+
+#logo img{
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 2px;
+    width: 140px;
+    height: 200%;
+    z-index: 9;
+}
+
+#logo div{
+    float: left;
+    margin-left: 140px;
+    width: 200px;
+    padding: 18px 10px;
+    font-size: 150%; 
+}
+
+#tituloMain{
+    float: left;
+    padding: 16px ;
+    font-size: 150%; 
+    margin-left: 110px;
+    margin-right: 55px;
+    height: 55%;
+    text-decoration: underline;
+}
+#tituloapp
+{
+    float: left;
+    padding: 16px ;
+    font-size: 150%; 
+    margin-left: 150px;
+    margin-right: 55px;
+    height: 55%;
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(161, 161, 161);
+}
+
+nav{
+    padding: 5px; 
+}
+
+nav li{
+    font-size: 120%; 
+    margin-right: 10px;
+    display: inline;
+}
+
+footer{
+    background-image: url("../img/wood2.jpg");
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 7px 0px;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.9);
+}
+
+#instituicao{
+    float: left;
+    margin-left: 20px;
+}
+
+#projeto{
+    margin-right: 20px; 
+    float: right;
+}
+#projeto a{
+    margin-left: 10px; 
+}
+section{
+    position: absolute;
+    left: 0;
+    margin-top: 10%;
+    padding: 5px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.9);
+    background-image: url("../img/wood2.jpg");
+}
+form{
+    padding: 5px;
+}
+
+select{
+    width: 100%;
+    height: 25px;
+    border-radius: 4px; 
+    background-color: #f1f1f1;
+    
+}
+
+input:focus, select:focus, .bt-play:focus{
+    outline: none;
+}
+
+label{
+    margin-left: 5px;
+}
+
+.bt-play{
+    padding: 2px 2px 0px 1px;
+    margin: 9% 36%;
+    width: 55px;
+    border-radius: 30px;
+    background-color: black;
+}
+
+.bt-play img{
+    width: 100%;
+}
+
+main{
+    position: absolute;
+    right: 0;
+    padding: 15px;
+    margin-top: 10%;
+    width: 75%;
+    box-shadow: -2px 4px 6px rgba(0, 0, 0, 0.9);
+    background-image: url("../img/wood2.jpg");
+    text-align: center;
+}
+
+#tab1{
+    background-image: url("../img/casino.png");
+    padding: 3px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5),
+            inset 5px 5px 8px rgba(0,0,0,0.5);
+}
+
+.cards {
+    /*border: red solid 3px;*/
+	display: table;
+	margin: 0px auto
+}
+
+.card-padding {
+	padding: 16px
+}
+
+.hide {
+	display: none !important;
+}
+
+.show {
+	display: inline-block !important
+}
+
+.visible {
+	display: block;
+}
+
+.wrap-image {
+	display: inline-block;;
+}
+
+.enable-click {
+	pointer-events:all !important;
+}
+
+.disable-click {
+	pointer-events:none !important;
+}
+
+
+.wrap-image{
+    margin-top: 20px;
+}
+
+.wrap-image h6{
+    margin-top: 5px;
+}
+
+#mainQuemSomos{
+    margin-top: 10%;
+}
+
+#textoSomos{
+    margin-top: -1%;
+    padding: 30px;
+}
+
+#idealizadores li{
+    margin-left: 20px;
+}
+
+#idealizadores li a{
+    color: #f3f3f3;
+}
+
+.divisor {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.9);
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid brown;
+    margin: 3em 0;
+    padding: 0; 
+}
+
+#mainApps{
+    margin-top: 8%;
+}
+
+#apps{
+    margin-top: -30px;
+    padding: 20px 100px;
+}
+
+.app{
+    float: left;
+    margin-left: 10%;
+    margin-bottom: 4%;
+    text-align: center;
+    width: 20%;
+    height: 160px;
+}
+
+.app h6{
+    font-size: 15px;
+}
+
+#titulo{
+    text-align: center;
+}
+
+#appLogo{
+    margin-top: -35px;
+    width: 150px;
+    height: 150px; 
+}
+
+.coming{
+    margin-top: -20px;
+    width: 140px;
+    height: 120px; 
+}
+
+#mainSaiba{
+    margin-top: 10%;
+    margin-bottom: 8%;
+}
+
+#titulo h3{
+    font-size: 30px;
+}

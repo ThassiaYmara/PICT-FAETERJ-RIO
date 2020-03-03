@@ -1,0 +1,3 @@
+pop-up added on load
+button added
+ajuda removed
